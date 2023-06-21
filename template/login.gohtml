@@ -1,0 +1,19 @@
+{{define "content"}}
+<div class="card">
+    <form action="">
+        <div class="mb-3 mt-3">
+          <label for="username" class="form-label">用户名:</label>
+          <input type="email" class="form-control" id="username" placeholder="输入用户名" name="username">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">密码:</label>
+          <input type="password" class="form-control" id="password" placeholder="输入密码" name="password">
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> 保持登录
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">登录</button>
+      </form>
+</div>

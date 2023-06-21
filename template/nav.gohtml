@@ -1,0 +1,20 @@
+{{define "nav"}}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">个人信息测试</a>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>教授: {{.Teacher.Name}}</h1>
+        <ul>
+            <li>姓名 : {{.Teacher.Name}}<p>
+            <li>学科 : {{.Teacher.Subject}}
+        </ul>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">更多 &raquo;</a></p>
+    </div>
+</div>
+{{end}}
