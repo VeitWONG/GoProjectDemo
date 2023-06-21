@@ -3,7 +3,7 @@ package config
 // 数据库连接参数
 const (
 	UserName  = "root"
-	Password  = "root11"
+	Password  = "123456"
 	IpAddress = "localhost"
 	Protocol  = "tcp"
 	Port      = "3306"
