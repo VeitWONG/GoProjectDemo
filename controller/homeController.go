@@ -9,8 +9,8 @@ import (
 
 func HomeController(response http.ResponseWriter, request *http.Request) {
 	teacher := model.Teacher{
-		Name:    "Alex",
-		Subject: "Physics",
+		Name:    "测试",
+		Subject: "测试",
 	}
 	students := []model.Student{
 		{Id: 1001, Name: "Peter", Country: "China"},

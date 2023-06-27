@@ -1,18 +1,14 @@
 package main
 
-import (
-	"demo/database"
-	"demo/httpServe"
-)
-
 // 主函数
 func main() {
-	httpServe.HttpServerStart()
+
+	//httpServe.HttpServerStart()
 
 	// 获得数据库引擎
-	engine, _ := database.Conn()
-	database.GetDatabaseInfo(engine)
-	engine.Close()
+	// engine, _ := database.Conn()
+	// database.GetDatabaseInfo(engine)
+	// engine.Close()
 
 	/*
 		// 声明并初始化User对象
